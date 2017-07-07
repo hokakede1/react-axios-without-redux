@@ -6,6 +6,8 @@ import Status from './Status/Status';
 import RepairLog from './RepairLog/RepairLog';
 import RemoveCustomer from './RemoveCustomer/RemoveCustomer';
 
+
+
 function Customer({ id, first, last, email, phone, status, log }) {
 
     return (
